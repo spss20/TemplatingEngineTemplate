@@ -21,7 +21,7 @@
           src="./src/pingpong.jpeg"
           alt="ping-pong-image"
         />
-        <p class="px-2 py-1 mb-0">Ping Pong Score Keeper</p>
+        <p class="px-2 py-1 mb-0">{{game_name}}</p>
         <p class="px-2 py-1 border-bottom mb-0">{{website_name}}</p>
         <div class="card-body">
           <h1>
@@ -29,7 +29,7 @@
             <span>&nbsp;to&nbsp;</span>
             <span id="team-two">0</span>
           </h1>
-          <p>Use the buttons below to keep score.</p>
+          <p>{{game_description}}</p>
           <b>Playing To</b>
           <div class="d-inline-block mx-2">
             <select id="pong-level" class="form-select">
